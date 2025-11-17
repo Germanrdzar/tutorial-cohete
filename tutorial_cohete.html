@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía para Crear un Cohete en Tinkercad</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .step {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        @media print {
+            body {
+                font-family: serif;
+                margin: 1.5cm;
+                color: #000;
+            }
+            h1, h2, h3 {
+                color: #000;
+                page-break-after: avoid;
+            }
+            .step {
+                border-bottom: 1px solid #999;
+                page-break-inside: avoid;
+            }
+            img {
+                max-width: 80% !important; /* Evita que las imágenes sean demasiado grandes */
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                page-break-inside: avoid;
+            }
+            p, strong {
+                color: #000;
+            }
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Diseño de un Cohete 3D en Tinkercad</h1>
+    <p><strong>Objetivo:</strong> Aprender a usar formas básicas, herramientas de alineación y agrupación para diseñar un modelo 3D de un cohete.</p>
+
+    <!-- Los pasos se insertarán aquí -->
+    <img src="images/image0.png" alt="Presentación del Cohete">
+
+    <div class="step">
+        <h2>Paso 1: Crear el Cuerpo del Cohete</h2>
+        <p><strong>Añadir el Cilindro:</strong> En el panel derecho, dentro de "Formas básicas", selecciona un <strong>Cilindro</strong> y arrástralo al plano de trabajo.</p>
+        <img src="images/image2.png" alt="Añadir cilindro">
+        <p><strong>Suavizar el Cilindro:</strong> Con el cilindro seleccionado, aparecerá un menú de propiedades. Aumenta el control deslizante de "Lados" hasta 64 para que la superficie sea más lisa.</p>
+        <p><strong>Ajustar la Altura:</strong> Haz clic en el pequeño cuadrado blanco en la parte superior del cilindro. Escribe 120 y presiona Enter para darle al cohete una altura de 120 mm.</p>
+    </div>
+    <div class="step">
+        <h2>Paso 2: Construir la Punta del Cohete</h2>
+        <p>La punta se construirá en tres partes: una sección de transición y la ojiva.</p>
+        
+        <h3>Crear la Sección de Transición:</h3>
+        <p>En el menú de la derecha, selecciona la herramienta "Plano de trabajo" y haz clic en la cara superior del cilindro.</p>
+        <p>Arrastra un <strong>Cono</strong> desde las "Formas básicas" y colócalo sobre el nuevo plano de trabajo.</p>
+        <img src="images/image9.png" alt="Colocar cono de transición">
+        <p>Haz clic nuevamente en la herramienta "Plano de trabajo" y luego en una parte vacía del plano principal para volver a la normalidad.</p>
+        <p>Selecciona el cono y ajusta sus propiedades: Radio Base: 10, Radio Superior: 8, Altura: 5. Cambia el color de esta pieza a amarillo.</p>
+        
+        <h3>Añadir la Ojiva (Punta):</h3>
+        <p>Nuevamente, usa la herramienta "Plano de trabajo" y colócala sobre la pieza de transición amarilla.</p>
+        <p>Busca y arrastra una forma de <strong>Paraboloide</strong> al nuevo plano.</p>
+        <img src="images/image7.png" alt="Añadir paraboloide">
+        <p>Regresa al plano de trabajo original. Ajusta el tamaño del paraboloide a 16 x 16 mm en su base y dale una altura que te guste (por ejemplo, 30 mm). Cambia el color de la ojiva a blanco.</p>
+        <img src="images/image1.png" alt="Ajustar paraboloide">
+
+        <h3>Alinear y Colorear el Cuerpo:</h3>
+        <p>Mantén presionada la tecla <strong>Shift</strong> y selecciona las tres partes del cohete: el cuerpo, la transición y la ojiva. Haz clic en el botón "Alinear" y céntralos en los dos ejes horizontales.</p>
+        <p>Cambia el color del cuerpo principal (el cilindro) a azul.</p>
+        <img src="images/image3.png" alt="Alinear y colorear el cohete">
+    </div>
+
+    <div class="step">
+        <h2>Paso 3: Diseñar y Colocar las Aletas</h2>
+        <h3>Crear una Aleta:</h3>
+        <p>Arrastra una forma de <strong>Cuña</strong> al plano de trabajo. Gírala 90 grados para que quede en posición vertical.</p>
+        <p>Ajusta sus dimensiones: Altura: 50 mm, Grosor: 3 mm. Cambia su color a rojo.</p>
+        <img src="images/image10.png" alt="Crear aleta">
+
+        <h3>Posicionar la Primera Aleta:</h3>
+        <p>Mueve la aleta hasta que toque la parte inferior del cuerpo del cohete. Para una alineación precisa, selecciona el cohete y la aleta, haz clic en "Alinear" y alinéalos en el centro de uno de los ejes.</p>
+
+        <h3>Duplicar las Aletas:</h3>
+        <p>Selecciona solo la aleta. Haz clic en el botón "Duplicar y repetir" (o presiona <strong>Ctrl+D</strong>).</p>
+        <p>Sin hacer clic en ningún otro lugar, utiliza las flechas de rotación para girar la aleta duplicada 120 grados.</p>
+        <img src="images/image8.png" alt="Duplicar aletas">
+        <p>Vuelve a presionar "Duplicar y repetir" una vez más. Tinkercad recordará la rotación y creará la tercera aleta automáticamente a 120 grados de la segunda.</p>
+        <img src="images/image4.png" alt="Aletas duplicadas">
+    </div>
+
+    <div class="step">
+        <h2>Paso 4: Añadir la Base y Finalizar</h2>
+        <h3>Elevar el Cohete:</h3>
+        <p>Selecciona todas las partes del cohete y muévelo hacia arriba unos 5 mm desde el plano de trabajo.</p>
+
+        <h3>Crear la Base:</h3>
+        <p>Arrastra un <strong>Cono</strong> al plano de trabajo. Ajusta sus propiedades: Radio Superior: 10, Radio Base: 8, Altura: 5. Cambia su color a gris.</p>
+        <img src="images/image5.png" alt="Crear la base">
+
+        <h3>Alineación Final:</h3>
+        <p>Selecciona todos los componentes (el cuerpo del cohete con sus aletas y la nueva base). Usa la herramienta "Alinear" para centrar todo perfectamente en los ejes horizontales.</p>
+
+        <h3>Agrupación Final:</h3>
+        <p>Con todo seleccionado, haz clic en el botón "Agrupar". Para que el cohete no se vuelva de un solo color, haz clic en la opción "Color" y activa la casilla "Multicolor".</p>
+        
+        <h2>¡Felicidades!</h2>
+        <p>Has completado el diseño de tu cohete en Tinkercad.</p>
+    </div>
+</body>
+</html>

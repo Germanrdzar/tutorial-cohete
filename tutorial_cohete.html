@@ -5,60 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guía para Crear un Cohete en Tinkercad</title>
     <style>
+    /* ----------------------------------------------------------------
+    ESTILOS GENERALES Y TIPOGRAFÍA (Para modernizar la apariencia)
+    ---------------------------------------------------------------- */
+    body {
+        /* Fuente moderna sin serifa */
+        font-family: Arial, sans-serif;
+        /* Fondo ligeramente grisáceo para que los elementos blancos destaquen */
+        background-color: #f4f4f9;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #004d99; /* Azul oscuro, similar al color del cuerpo del cohete */
+        text-align: center;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #ffcc00; /* Línea de separación amarilla, similar al color de la sección de transición */
+    }
+
+    /* ----------------------------------------------------------------
+    ESTILOS PARA LOS PASOS (Para romper el diseño plano)
+    ---------------------------------------------------------------- */
+
+    .step {
+        /* Espaciado interno generoso */
+        padding: 25px;
+        /* Fondo blanco para contraste */
+        background-color: #ffffff;
+        margin-bottom: 30px;
+        /* Borde ligeramente redondeado */
+        border-radius: 12px;
+        /* LA CLAVE para el efecto "no plano": Sombra de caja (Box Shadow) */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        /* Efecto sutil de 'elevación' al pasar el ratón */
+        transition: transform 0.3s ease-in-out;
+        border-bottom: none; /* Eliminar el borde inferior plano */
+        padding-bottom: 25px;
+    }
+
+    .step:hover {
+        /* Ligero levantamiento al pasar el ratón */
+        transform: translateY(-5px);
+    }
+
+    h2 {
+        /* Estilo para los encabezados de Paso 1, Paso 2, etc. */
+        color: #cc0000; /* Color rojo, similar al de las aletas */
+        margin-top: 0;
+        font-size: 1.5em;
+    }
+
+    /* ----------------------------------------------------------------
+    ESTILOS PARA IMÁGENES Y DESCRIPCIONES
+    ---------------------------------------------------------------- */
+    img {
+        /* Hace que la imagen ocupe todo el ancho del contenedor del paso */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        /* Sombra sutil para las imágenes referenciadas (image0.png, image1.png, etc.) */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        /* Suaviza las esquinas de las imágenes */
+        border-radius: 8px;
+        border: none; /* Eliminar el borde plano */
+        padding: 0;
+    }
+
+    p > strong {
+        /* Estilo para el texto en negrita, como las descripciones */
+        display: block;
+        font-style: normal;
+        background-color: #ffe0b3; /* Fondo suave para resaltar instrucciones clave */
+        padding: 10px;
+        border-left: 5px solid #ff9900;
+        margin-top: 10px;
+        border-radius: 4px;
+    }
+
+    @media print {
         body {
-            font-family: sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            font-family: serif;
+            margin: 1.5cm;
+            color: #000;
+            background-color: #fff;
         }
-        h1, h2 {
-            color: #333;
+        .container {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            box-shadow: none;
+        }
+        h1, h2, h3 {
+            color: #000;
+            page-break-after: avoid;
         }
         .step {
-            margin-bottom: 30px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 20px;
+            border: 1px solid #999;
+            page-break-inside: avoid;
+            box-shadow: none;
+            transform: none;
+            border-radius: 0;
         }
         img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 5px;
-            margin-top: 10px;
+            max-width: 80% !important;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            page-break-inside: avoid;
+            box-shadow: none;
+            border-radius: 0;
         }
-
-        @media print {
-            body {
-                font-family: serif;
-                margin: 1.5cm;
-                color: #000;
-            }
-            h1, h2, h3 {
-                color: #000;
-                page-break-after: avoid;
-            }
-            .step {
-                border-bottom: 1px solid #999;
-                page-break-inside: avoid;
-            }
-            img {
-                max-width: 80% !important; /* Evita que las imágenes sean demasiado grandes */
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                page-break-inside: avoid;
-            }
-            p, strong {
-                color: #000;
-            }
-            a {
-                text-decoration: none;
-                color: #000;
-            }
+        p, strong {
+            color: #000;
         }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        p > strong {
+            background-color: #eee;
+            border-left: 5px solid #ccc;
+        }
+    }
     </style>
 </head>
 <body>
+    <div class="container">
     <h1>Diseño de un Cohete 3D en Tinkercad</h1>
     <p><strong>Objetivo:</strong> Aprender a usar formas básicas, herramientas de alineación y agrupación para diseñar un modelo 3D de un cohete.</p>
 
@@ -131,6 +212,7 @@
         
         <h2>¡Felicidades!</h2>
         <p>Has completado el diseño de tu cohete en Tinkercad.</p>
+    </div>
     </div>
 </body>
 </html>

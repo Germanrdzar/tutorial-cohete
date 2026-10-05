@@ -48,7 +48,7 @@ La idea clave es que **el problema de la distracción se vuelve el contenido**: 
 ## 7. Inclusión
 - Se **parte de lo básico**, sin dar nada por sabido, y se arman **tutoriales cortos** (video y papel) para repasar.
 - **Tutoría entre pares:** estudiantes que saben más ayudan a otros e incluso a los docentes.
-- Apps que **funcionen sin conexión**, para quienes no tienen internet en su casa.
+- Apps que **funcionen sin conexión**, porque la conectividad de la escuela puede fallar.
 - **Varios formatos de entrega** (audio, imagen o texto) y uso de las opciones de accesibilidad de la tablet (tamaño de letra, lectura en voz alta).
 
 ## 8. Rol del tecnólogo/a educativo/a
@@ -60,6 +60,28 @@ Qué puede hacer concretamente para ayudar:
 - **Acompañar en el aula** las primeras clases con tablet.
 - **Promover la ciudadanía digital** y coordinar los acuerdos de uso.
 - **Evaluar los resultados** (qué produjeron, cómo cambió el uso) y dejar materiales para que la escuela siga sola.
+
+---
+
+## ¿Con qué proyecto se pueden usar las tablets?
+Las tablets **son de la escuela**: se usan en clase, se comparten entre cursos y no se las llevan a la casa. Por eso conviene pensar proyectos en los que la tablet haga algo que **sin ella no se podría hacer** (grabar, medir, fotografiar, mapear, escanear) y que se completen dentro del horario escolar.
+
+| Proyecto | Materias | Para qué se usa la tablet | Funciona sin internet |
+|---|---|---|---|
+| **A. "Mi barrio en datos"**: investigar una problemática del barrio (residuos, agua, espacios verdes, seguridad vial) | Geografía, Biología, Matemática, Lengua | Fotos y videos de campo, encuestas a vecinos, gráficos con los resultados, mapa con los puntos relevados, presentación final | Sí en la mayor parte (el mapa y las encuestas online necesitan conexión) |
+| **B. Laboratorio de ciencias con la tablet** | Física, Química | Usar los sensores de la tablet (acelerómetro, micrófono, luz) con la app gratuita **phyphox** para medir y hacer experimentos | Sí |
+| **C. Radio o podcast escolar** | Lengua, Ciudadanía, Historia | Grabar entrevistas, editar audio y publicar episodios sobre temas de la escuela y la comunidad | Sí, salvo para publicar |
+| **D. Memoria del barrio con códigos QR** | Historia, Lengua, Arte | Entrevistar a vecinos, armar fichas multimedia y pegar códigos QR en la escuela o en el barrio para que otros los escaneen | Grabar sí; ver los QR necesita conexión |
+| **E. Campaña de uso responsable de la tecnología** (la que describimos más arriba) | Ciudadanía, Lengua, Psicología | Producir videos, podcasts e infografías | Sí |
+
+**Recomendamos el proyecto A, "Mi barrio en datos".** Integra varias materias de 4.º año, usa muchas funciones distintas de la tablet y parte de un problema real de la comunidad, así que los chicos tienen un motivo para usarla en serio y no para distraerse. Además, los acuerdos de uso del encuentro 2 se pueden aplicar igual.
+
+### Organización, porque las tablets son compartidas
+- **Carro o armario con turnos:** una grilla semanal de qué curso las usa y cuándo.
+- **Planilla de préstamo:** cada tablet numerada y asignada al mismo grupo durante todo el proyecto.
+- **Carga y guardado:** se devuelven al carro al final de la clase, y un responsable por curso controla la carga.
+- **Los trabajos no se guardan solo en la tablet:** se suben a una carpeta compartida o al aula virtual del curso, para no perderlos ni mezclarlos con los de otros cursos.
+- **Configuración común:** el tecnólogo/a deja instaladas solo las apps del proyecto y, si se puede, bloquea juegos y redes.
 
 ---
 
